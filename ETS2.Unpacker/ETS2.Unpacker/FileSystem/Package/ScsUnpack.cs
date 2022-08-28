@@ -63,7 +63,7 @@ namespace ETS2.Unpacker
                     String m_FileName = ScsHashList.iGetNameFromHashList(m_Entry.dwNameHash).Replace("/", @"\");
                     String m_FullPath = m_DstFolder + m_FileName;
 
-                    Utils.iSetInfo("[UNPACKING]: " + m_FileName);
+                    Utils.iSetInfo("[UNPACKING]: " + m_FileName );
                     Utils.iCreateDirectory(m_FullPath);
 
                     TScsStream.Seek(m_Entry.dwOffset, SeekOrigin.Begin);
@@ -81,7 +81,8 @@ namespace ETS2.Unpacker
                         File.WriteAllBytes(m_FullPath, lpBuffer);
                     }
                 }
-
+                
+                
                 TScsStream.Dispose();
             }
         }

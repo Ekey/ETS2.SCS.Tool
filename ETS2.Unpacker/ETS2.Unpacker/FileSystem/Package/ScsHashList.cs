@@ -26,7 +26,20 @@ namespace ETS2.Unpacker
             StreamReader TProjectFile = new StreamReader(m_ProjectFilePath);
             while ((m_Line = TProjectFile.ReadLine()) != null)
             {
-                UInt64 dwHash = ScsHash.iGetHash(m_Line);
+                UInt64 dwHash = 0;
+
+                if (m_Line == "root.root")
+                {
+                    dwHash = ScsHash.iGetHash(m_Line.Replace("root.root", ""));
+                }
+                else if (m_Line.Contains(".root"))
+                {
+                    dwHash = ScsHash.iGetHash(m_Line.Replace(".root", ""));
+                }
+                else
+                {
+                    dwHash = ScsHash.iGetHash(m_Line);
+                }
 
                 if (m_HashList.ContainsKey(dwHash))
                 {
@@ -56,7 +69,7 @@ namespace ETS2.Unpacker
             }
             else
             {
-                m_FileName = @"__Unknown\" + dwHash.ToString("X16");
+                m_FileName = @"__Unknown\" + dwHash.ToString("X16") + ".dat";
             }
 
             return m_FileName;

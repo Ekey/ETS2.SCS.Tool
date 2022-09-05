@@ -6,7 +6,7 @@ Tool for extract SCS archives from games American Truck Simulator, Euro Truck Si
 | American Truck Simulator | [here](https://store.steampowered.com/app/227300) | [here](https://steamdb.info/app/227300)
 | Euro Truck Simulator 2 | [here](https://store.steampowered.com/app/270880) | [here](https://steamdb.info/app/270880)
 
-# American Truck Simulator ProjectList Information
+# American Truck Simulator
 
 | SCS File   | Percent |
 |---      |--- |
@@ -57,7 +57,7 @@ Tool for extract SCS archives from games American Truck Simulator, Euro Truck Si
 | effect.scs | 100% |
 | locale.scs | 100% |
 
-# Euro Truck Simulator 2 ProjectList Information
+# Euro Truck Simulator 2
 
 | SCS File   | Percent |
 |---      |--- |

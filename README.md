@@ -1,9 +1,63 @@
 # ETS2.SCS.Tool :see_no_evil:
-Tool for extract SCS archives from game Euro Truck Simulator 2
+Tool for extract SCS archives from games American Truck Simulator, Euro Truck Simulator 2
 
-The names of files is relevant for game version 1.45.1.6
+| Game   | Steam   | SteamDB   |
+|---      |---    |---    |
+| American Truck Simulator | [here](https://store.steampowered.com/app/227300) | [here](https://steamdb.info/app/227300)
+| Euro Truck Simulator 2 | [here](https://store.steampowered.com/app/270880) | [here](https://steamdb.info/app/270880)
 
-# SCS ProjectList Information
+# American Truck Simulator ProjectList Information
+
+| SCS File   | Percent |
+|---      |--- |
+| base.scs | 99% |
+| base_cfg.scs | 100% |
+| core.scs | 1% |
+| def.scs | 100% |
+| dlc_arizona.scs | 100% |
+| dlc_christmas.scs | 100% |
+| dlc_co.scs | 100% |
+| dlc_dragon.scs | 100% |
+| dlc_forest_harvesting.scs | 100% |
+| dlc_freightliner_cascadia2019.scs | 100% |
+| dlc_goodyear.scs | 100% |
+| dlc_halloween.scs | 100% |
+| dlc_heavy_cargo.scs | 100% |
+| dlc_id.scs | 100% |
+| dlc_international_9900i.scs | 100% |
+| dlc_international_lonestar.scs | 100% |
+| dlc_international_lt.scs | 100% |
+| dlc_kenworth_t680.scs | 100% |
+| dlc_kenworth_w900.scs | 100% |
+| dlc_lodeking.scs | 100% |
+| dlc_mack_anthem.scs | 100% |
+| dlc_mt.scs | 100% |
+| dlc_neon.scs | 100% |
+| dlc_nevada.scs | 100% |
+| dlc_nm.scs | 100% |
+| dlc_or.scs | 100% |
+| dlc_oversize.scs | 100% |
+| dlc_peterbilt_389.scs | 100% |
+| dlc_peterbilt_579.scs | 100% |
+| dlc_pink_ribbon.scs | 100% |
+| dlc_rims.scs | 100% |
+| dlc_sci_st_wheels.scs | 100% |
+| dlc_space.scs | 100% |
+| dlc_steampunk.scs | 100% |
+| dlc_stripes.scs | 100% |
+| dlc_toys.scs | 100% |
+| dlc_ut.scs | 100% |
+| dlc_valentine.scs | 100% |
+| dlc_volvo_construction.scs | 100% |
+| dlc_volvo_vnl.scs | 100% |
+| dlc_wa.scs | 100% |
+| dlc_westernstar_49x.scs | 100% |
+| dlc_westernstar_57x.scs | 100% |
+| dlc_wy.scs | 100% |
+| effect.scs | 100% |
+| locale.scs | 100% |
+
+# Euro Truck Simulator 2 ProjectList Information
 
 | SCS File   | Percent |
 |---      |--- |

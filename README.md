@@ -66,6 +66,8 @@ Tool for extract SCS archives from games American Truck Simulator, Euro Truck Si
 | core.scs | 1% |
 | def.scs | 100% |
 | dlc_actros_tuning.scs | 100% |
+| dlc_balkan_e.scs | 100% |
+| dlc_balt.scs | 100% |
 | dlc_christmas.scs | 100% |
 | dlc_daf_2021.scs | 100% |
 | dlc_daf_tuning_pack.scs | 100% |
@@ -107,10 +109,13 @@ Tool for extract SCS archives from games American Truck Simulator, Euro Truck Si
 | dlc_flags_uk.scs | 100% |
 | dlc_flags_ukr.scs | 100% |
 | dlc_flags_us.scs | 100% |
+| dlc_fr.scs | 100% |
 | dlc_goodyear.scs | 100% |
 | dlc_halloween.scs | 100% |
 | dlc_heavy_cargo.scs | 100% |
 | dlc_hs_schoch.scs | 100% |
+| dlc_iberia.scs | 100% |
+| dlc_it.scs | 100% |
 | dlc_krone.scs | 100% |
 | dlc_lunar_new_year.scs | 100% |
 | dlc_metallics.scs | 100% |
